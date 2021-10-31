@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "duolingoboost"
+version = "0.1.0"
+description = "Boost DuoLingo Pro counter"
+authors = ["Egorov Egor <buggies_aliases.0f@icloud.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Faker = "^9.7.1"
+selenium = "^4.0.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
