@@ -119,6 +119,7 @@ if __name__ == "main":
     counter = os.getenv("COUNTER", False)
     if counter is False:
         raise ValueError("Укажите необходимое количество циклов")
-    for i in range(0, counter):
+    time.sleep(10)
+    for i in range(1, counter):
         with Booster() as b:
             print(f"Created {i}")
