@@ -19,7 +19,7 @@ services:
     depends_on:
       - selenium
     environment:
-      - YOU_REFERRAL_URL = "https://invite.duolingo.com/BDHTZTB5CWWKS7FOZYMMJYBLCI"
-      - COUNTER = 1
+      - YOU_REFERRAL_URL = "https://invite.duolingo.com/BDHTZTB5CWWKTQZ5SXQIHBCQ74"
+      - COUNTER = 10
     volumes:
       - .:/app
